@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6FEC2A201EB6C900AE23EA /* NibLoadableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FEC29201EB6C900AE23EA /* NibLoadableViewExtension.swift */; };
+		3F6FEC2C201EB89C00AE23EA /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FEC2B201EB89C00AE23EA /* UIViewControllerExtension.swift */; };
+		3F6FEC2E201EB93700AE23EA /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FEC2D201EB93700AE23EA /* UITableViewExtension.swift */; };
 		3F8A3D51200D9371004A05F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A3D50200D9371004A05F3 /* AppDelegate.swift */; };
 		3F8A3D53200D9371004A05F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A3D52200D9371004A05F3 /* ViewController.swift */; };
 		3F8A3D56200D9371004A05F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A3D54200D9371004A05F3 /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 
 /* Begin PBXFileReference section */
 		0C5AFF98E448FAE6DCE279C9 /* Pods-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.release.xcconfig"; sourceTree = "<group>"; };
+		3F6FEC29201EB6C900AE23EA /* NibLoadableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableViewExtension.swift; sourceTree = "<group>"; };
+		3F6FEC2B201EB89C00AE23EA /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		3F6FEC2D201EB93700AE23EA /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		3F8A3D4D200D9370004A05F3 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8A3D50200D9371004A05F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8A3D52200D9371004A05F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -233,6 +239,9 @@
 				3F8A3DAC200D9776004A05F3 /* UITextFieldExtension.swift */,
 				3F8A3DAD200D9776004A05F3 /* UITextViewExtension.swift */,
 				3F8A3DAE200D9776004A05F3 /* UIViewExtension.swift */,
+				3F6FEC29201EB6C900AE23EA /* NibLoadableViewExtension.swift */,
+				3F6FEC2B201EB89C00AE23EA /* UIViewControllerExtension.swift */,
+				3F6FEC2D201EB93700AE23EA /* UITableViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -451,13 +460,16 @@
 				3F8A3DF1200D9776004A05F3 /* GradientView.swift in Sources */,
 				3F8A3E0D200D9776004A05F3 /* UIViewExtension.swift in Sources */,
 				3F8A3E04200D9776004A05F3 /* LoadingExtension.swift in Sources */,
+				3F6FEC2C201EB89C00AE23EA /* UIViewControllerExtension.swift in Sources */,
 				3F8A3E0A200D9776004A05F3 /* UILabelExtension.swift in Sources */,
+				3F6FEC2E201EB93700AE23EA /* UITableViewExtension.swift in Sources */,
 				3F8A3E02200D9776004A05F3 /* DispatchQueueExtension.swift in Sources */,
 				3F8A3E07200D9776004A05F3 /* StringExtension.swift in Sources */,
 				3F8A3D53200D9371004A05F3 /* ViewController.swift in Sources */,
 				3F8A3E32200D9777004A05F3 /* Log.swift in Sources */,
 				3F8A3E06200D9776004A05F3 /* NSTimeIntervalExtension.swift in Sources */,
 				3F8A3D51200D9371004A05F3 /* AppDelegate.swift in Sources */,
+				3F6FEC2A201EB6C900AE23EA /* NibLoadableViewExtension.swift in Sources */,
 				3F8A3D6E200D96E8004A05F3 /* Context.swift in Sources */,
 				3F8A3E33200D9777004A05F3 /* Utils.swift in Sources */,
 				3F8A3E2F200D9777004A05F3 /* AuthService.swift in Sources */,

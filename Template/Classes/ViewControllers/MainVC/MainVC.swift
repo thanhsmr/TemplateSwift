@@ -9,7 +9,7 @@
 import UIKit
 import PromiseKit
 
-class MainVC: BaseViewController {
+class MainVC: BaseViewController, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
