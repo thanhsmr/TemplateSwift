@@ -1,11 +1,3 @@
-//
-//  GradientView.swift
-//  NetNews
-//
-//  Created by Thanhbv on 9/14/17.
-//  Copyright © 2017 Viettel Media. All rights reserved.
-//
-
 import UIKit
 
 @IBDesignable final class GradientView: UIView {

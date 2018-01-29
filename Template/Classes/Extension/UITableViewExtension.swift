@@ -1,11 +1,3 @@
-//
-//  UITableViewExtension.swift
-//  Template
-//
-//  Created by cowell on 1/29/18.
-//  Copyright © 2018 Other. All rights reserved.
-//
-
 import UIKit
 
 extension UITableView {

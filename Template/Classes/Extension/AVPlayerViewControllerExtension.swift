@@ -1,11 +1,3 @@
-//
-//  AVPlayerViewControllerExtension.swift
-//  NetNews
-//
-//  Created by Thanhbv on 9/7/17.
-//  Copyright © 2017 Viettel Media. All rights reserved.
-//
-
 import Foundation
 import UIKit
 import AVKit
