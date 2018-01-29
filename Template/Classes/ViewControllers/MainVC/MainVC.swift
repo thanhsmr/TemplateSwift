@@ -1,8 +1,8 @@
 import UIKit
 import PromiseKit
+import Alamofire
 
 class MainVC: BaseViewController, UITableViewDelegate {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,6 +23,10 @@ class MainVC: BaseViewController, UITableViewDelegate {
             }.catch { error in
                 Log.debug("Error: \(error)")
         }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        authRequest?.cancel()
     }
 
     override func didReceiveMemoryWarning() {
